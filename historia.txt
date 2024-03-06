@@ -628,4 +628,19 @@ pull.ff=only
 credential.helper=manager
 credential.https://dev.azure.com.usehttppath=true
 init.defaultbranch=main
-
+Usuario@LAPTOP-HN6DR31H MINGW64 ~/ApuntesNotepad++/EnSo/Prácticas/P6_Cambios/OneDrive_2024-03-06/Raiz_repositorio (main)
+$ git pull origin main
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 5.46 KiB | 559.00 KiB/s, done.
+From https://github.com/Brais67/Control-de-Cambios-ENSO_Individual
+ * branch            main       -> FETCH_HEAD
+   2eb5252..355048b  main       -> origin/main
+Updating 2eb5252..355048b
+Fast-forward
+ historia.txt | 631 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 631 insertions(+)
+Usuario@LAPTOP-HN6DR31H MINGW64 ~/ApuntesNotepad++/EnSo/Prácticas/P6_Cambios/OneDrive_2024-03-06/Raiz_repositorio (main)
+$ git diff historia.txt
